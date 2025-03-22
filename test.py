@@ -3,9 +3,9 @@ import re
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 from PIL import Image, ImageTk, ImageFilter, ImageEnhance
+import cv2
 import pytesseract
 import shutil
-import cv2
 import numpy as np
 
 # Настройки по умолчанию
